@@ -13,4 +13,8 @@ describe('fizz_buzz') do
   it('should return buzz if the number is divisible by 5') do
     fizz_buzz(5).should(eq("buzz"))
   end
+
+  it('should return fizzbuzz if the number is divisible by 3 and 5') do
+    fizz_buzz(15).should(eq("fizzbuzz"))
+  end
 end
